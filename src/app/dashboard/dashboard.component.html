@@ -428,7 +428,7 @@
                                     <div id="module" class="container-fluid">
                                         <div id="collapseGrid" aria-expanded="false">
                                             <div class="row">
-                                                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
 padding-left: 10px;">
                                                     <div class="stat panel panel-primary">
                                                         <div class="panel-heading">
@@ -461,7 +461,7 @@ padding-left: 10px;">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
 padding-left: 10px;">
                                                     <div class="stat panel panel-primary">
                                                         <div class="panel-heading">
@@ -495,7 +495,7 @@ padding-left: 10px;">
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
    padding-left: 10px;">
                                                     <div class="stat panel panel-primary">
                                                         <div class="panel-heading">
@@ -509,6 +509,7 @@ padding-left: 10px;">
                                                                 <div class="col-xs-10 text-right">
                                                                     <div class="huge">
                                                                         <h3 id="DownlineCount">{{downlineCount}}</h3>
+                                                                        <!-- <h3 id="DownlineCount" *ngIf="downlineCount!='' ">0</h3> -->
                                                                     </div>
                                                                     <div>
                                                                         <h5> Team Count</h5>
@@ -530,7 +531,7 @@ padding-left: 10px;">
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-right: 10px;
                                                  padding-left: 10px;">
                                                     <div class="stat panel panel-primary">
                                                         <div class="panel-heading Sign-on">
@@ -541,6 +542,7 @@ padding-left: 10px;">
                                                                 <div class="col-xs-10 text-right">
                                                                     <div class="huge">
                                                                         <h3 id="RenewalDate">{{startDate}}</h3>
+                                                                        
                                                                     </div>
                                                                     <div>
                                                                         <h5>Subscription Date </h5>
@@ -559,7 +561,7 @@ padding-left: 10px;">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12"
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"
                                                     style="padding-right: 10px; padding-left: 10px;">
                                                     <div class="stat panel panel-primary">
                                                         <div class="panel-heading Sign-on">
@@ -571,7 +573,7 @@ padding-left: 10px;">
                                                                 <div class="col-xs-10 text-right">
                                                                     <div class="huge">
                                                                         <h3 id="RenewalExpDate" *ngIf="endDate != '0000-00-00'">{{endDate}}</h3>
-                                                                            <h3 id="RenewalExpDate" *ngIf="endDate == '0000-00-00'">{{endDate}}</h3>
+                                                                            
                                                                     </div>
                                                                     <div>
                                                                         <h5>Subscription Expiry Date</h5>
@@ -591,7 +593,7 @@ padding-left: 10px;">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12"
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"
                                                     style="padding-right: 10px;padding-left: 10px;">
                                                     <div class="stat panel panel-primary">
                                                         <div class="panel-heading Sign-ip">
@@ -601,12 +603,14 @@ padding-left: 10px;">
                                                                     <i class="fa-solid fa-book-atlas fa-5x"></i>
                                                                 </div>
                                                                 <div class="col-xs-10 text-right">
-                                                                    <div class="huge">
-                                                                        <h3 id="CurrentRank">Current Rank </h3>
-                                                                    </div>
                                                                     <div>
                                                                         <h5>{{rank}}</h5>
+                                                                        
                                                                     </div>
+                                                                    <div class="huge">
+                                                                        <h5 id="CurrentRank">Current Rank </h5>
+                                                                    </div>
+                                                                   
                                                                 </div>
                                                             </div>
                                                         </div>
